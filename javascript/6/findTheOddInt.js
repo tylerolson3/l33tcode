@@ -9,6 +9,6 @@
 // [1,1,2] should return 2, because it occurs 1 time (which is odd).
 // [0,1,0,1,0] should return 0, because it occurs 3 times (which is odd).
 
-https: function findOdd(arr) {
+function findOdd(arr) {
   return arr.find((item) => arr.filter((el) => el == item).length % 2);
 }
