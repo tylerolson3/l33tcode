@@ -6,6 +6,7 @@
 // Only positive integers will be passed to the function (> 0 ), no negatives or zeros.
 // Input >> Output Examples
 // minValue ({1, 3, 1})  ==> return (13)
+const three = 4;
 
 function minValue(values) {
   let arr = Array.from(new Set(values));
